@@ -1,19 +1,20 @@
 //
-//  ViewController.swift
+//  ChooseTopicVC.swift
 //  BreathMeditation
 //
-//  Created by Cansu Özdizlekli on 9/30/22.
+//  Created by Cansu Özdizlekli on 10/2/22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class ChooseTopicVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
 
-}
 
+}
