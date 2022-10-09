@@ -18,6 +18,11 @@ class VoiceTableViewCell: UITableViewCell {
     }
     
     func setUpUI(with cell : Voice){
+        voiceStartButton.setImage(UIImage(systemName: "play.fill",withConfiguration: UIImage.SymbolConfiguration(pointSize: 12)), for: UIControl.State.normal)
+        voiceStartButton.setTitle("", for: UIControl.State.normal)
+        voiceStartButton.backgroundColor = .primaryIndigo
+        voiceStartButton.tintColor = .primaryWhite
+        voiceStartButton.layer.cornerRadius = 20
            voiceTitle.text = cellItem.name
            voiceTime.text = cellItem.time
        }

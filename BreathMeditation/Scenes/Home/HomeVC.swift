@@ -58,15 +58,12 @@ class HomeVC: UIViewController {
         recommendsCollectionView.collectionViewLayout = layout
     }
 
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-        if screenHeight > 700 && screenHeight < 800 {
-            headerTopConstraint.constant = 30
-            recomendedTitleTopConstraint.constant = 30
-            weWishBottomConstraint.constant = 20
-            print(screenHeight)
-            print("700den buyuk")
+    func cansuVerySweeti () {
+        if screenHeight > 600 && screenHeight < 800 {
+            headerTopConstraint.constant = 15
+            recomendedTitleTopConstraint.constant = 15
+            weWishBottomConstraint.constant = 5
+            print("cansu 700den buyuk")
         }
         if screenHeight > 800 && screenHeight < 900  {
             headerTopConstraint.constant = 35

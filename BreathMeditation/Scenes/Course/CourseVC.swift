@@ -15,7 +15,14 @@ struct Voice{
 
 class CourseVC: UIViewController {
     
-    
+    var voiceArr :[Voice] = [
+                             Voice(name: "Focus Attention", time: "10 MIN", isSelected: true),
+                             Voice(name: "Body Scan", time: "5 MIN", isSelected: false),
+                             Voice(name: "Making Happieness", time: "3 MIN", isSelected: false),
+                             Voice(name: "Focus Attention", time: "10 MIN", isSelected: true),
+                             Voice(name: "Body Scan", time: "5 MIN", isSelected: false),
+                             Voice(name: "Making Happieness", time: "3 MIN", isSelected: false),
+    ]
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var sunImageView: UIImageView!
@@ -33,19 +40,10 @@ class CourseVC: UIViewController {
         return button
     }()
     
-    let voiceArr :[Voice] = [Voice(name: "Body Scan", time: "5 MIN", isSelected: false),
-                             Voice(name: "Focus Attention", time: "10 MIN", isSelected: true),
-                             Voice(name: "Body Scan", time: "5 MIN", isSelected: false),
-                             Voice(name: "Making Happieness", time: "3 MIN", isSelected: false),
-                             Voice(name: "Focus Attention", time: "10 MIN", isSelected: true),
-                             Voice(name: "Body Scan", time: "5 MIN", isSelected: false),
-                             Voice(name: "Making Happieness", time: "3 MIN", isSelected: false),
-    ]
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("CANSU  <<<< slf")
         tableView.register(VoiceTableViewCell.nib, forCellReuseIdentifier: VoiceTableViewCell.identifier)
         tableView.dataSource = self
         tableView.delegate = self
@@ -60,11 +58,32 @@ class CourseVC: UIViewController {
         sunImageView.addCornerRadius(15,  [.layerMinXMinYCorner,.layerMaxXMinYCorner])
         view.addSubview(backButton)
         backButton.addTarget(self, action: #selector(backButtonTapped), for: .touchUpInside)
+        tableView.showsVerticalScrollIndicator = false
     }
     
     
     @IBAction func segmentedControlAction(_ sender: UISegmentedControl) {
         segmentedControl.underlinePosition()
+        if sender.selectedSegmentIndex == 0 {
+            voiceArr = [
+                                     Voice(name: "Focus Attention", time: "10 MIN", isSelected: true),
+                                     Voice(name: "Body Scan", time: "5 MIN", isSelected: false),
+                                     Voice(name: "Making Happieness", time: "3 MIN", isSelected: false),
+                                     Voice(name: "Focus Attention", time: "10 MIN", isSelected: true),
+                                     Voice(name: "Body Scan", time: "5 MIN", isSelected: false),
+                                     Voice(name: "Making Happieness", time: "3 MIN", isSelected: false),
+            ]
+            tableView.reloadData()
+        }
+        if sender.selectedSegmentIndex == 1 {
+            voiceArr = [
+                                     Voice(name: "Female Sound 1", time: "10 MIN", isSelected: true),
+                                     Voice(name: "Female Sound 2", time: "5 MIN", isSelected: false),
+                                     Voice(name: "Female Sound 3", time: "3 MIN", isSelected: false),
+                                     Voice(name: "Female Sound 4", time: "10 MIN", isSelected: true)
+            ]
+            tableView.reloadData()
+        }
         
     }
     
