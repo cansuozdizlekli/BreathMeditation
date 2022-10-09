@@ -12,6 +12,8 @@ extension UIColor {
     static let primaryWhite = UIColor.init(red: 255, green: 255, blue: 255, reqAlpha: 1)
     static let primaryIndigo = UIColor.init(red: 142, green: 151, blue: 253, reqAlpha: 1)
     static let secondaryWhite = UIColor.init(red: 235, green: 234, blue: 236)
+    static let primaryTitleColor = UIColor.init(red: 63, green: 65, blue: 79)
+    static let focusBackground = UIColor.init(red: 164, green: 221, blue: 196)
     
 }
 

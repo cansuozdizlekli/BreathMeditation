@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0A9DA928F1C188002BDFF0 /* CourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9DA728F1C188002BDFF0 /* CourseVC.swift */; };
+		8D0A9DAA28F1C188002BDFF0 /* CourseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DA828F1C188002BDFF0 /* CourseVC.xib */; };
+		8D0A9DAC28F2D02B002BDFF0 /* UISegmentedControl+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9DAB28F2D02B002BDFF0 /* UISegmentedControl+Ext.swift */; };
+		8D0A9DB628F30690002BDFF0 /* VoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9DB428F30690002BDFF0 /* VoiceTableViewCell.swift */; };
+		8D0A9DB728F30690002BDFF0 /* VoiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DB528F30690002BDFF0 /* VoiceTableViewCell.xib */; };
 		8D0E817D28E730B5007B51BE /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E817C28E730B5007B51BE /* UIImage+Ext.swift */; };
+		8D3A9BCE28ECBAD700AF6497 /* RemindersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A9BCC28ECBAD700AF6497 /* RemindersVC.swift */; };
+		8D3A9BCF28ECBAD700AF6497 /* RemindersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A9BCD28ECBAD700AF6497 /* RemindersVC.xib */; };
+		8D3A9BD228EE042B00AF6497 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3A9BD128EE042B00AF6497 /* SnapKit */; };
+		8D3A9BD628EF0EB200AF6497 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A9BD428EF0EB200AF6497 /* HomeVC.swift */; };
+		8D3A9BD728EF0EB200AF6497 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A9BD528EF0EB200AF6497 /* HomeVC.xib */; };
 		8D5FFB6028E8A09C003E05D5 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB5E28E8A09C003E05D5 /* GetStartedVC.swift */; };
-		8D5FFB6128E8A09C003E05D5 /* GetStartedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5FFB5F28E8A09C003E05D5 /* GetStartedVC.xib */; };
 		8D5FFB6328E8A515003E05D5 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB6228E8A515003E05D5 /* UILabel+Ext.swift */; };
 		8D5FFB6728E91EBF003E05D5 /* ChooseTopicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB6528E91EBF003E05D5 /* ChooseTopicVC.swift */; };
-		8D5FFB6828E91EBF003E05D5 /* ChooseTopicVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5FFB6628E91EBF003E05D5 /* ChooseTopicVC.xib */; };
+		8D5FFB6B28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 8D5FFB6A28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayout */; };
+		8D5FFB6D28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayoutObjC in Frameworks */ = {isa = PBXBuildFile; productRef = 8D5FFB6C28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayoutObjC */; };
+		8D5FFB6F28E9BCAC003E05D5 /* TopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB6E28E9BCAC003E05D5 /* TopicCollectionViewCell.swift */; };
+		8D5FFB7128E9CBDC003E05D5 /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB7028E9CBDC003E05D5 /* UIView+Animation.swift */; };
+		8D5FFB7328E9CDE3003E05D5 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB7228E9CDE3003E05D5 /* UIViewController+Ext.swift */; };
+		8D5FFB7528EA072B003E05D5 /* ChooseTopicVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5FFB7428EA072B003E05D5 /* ChooseTopicVC.xib */; };
+		8D5FFB7728EA1CD4003E05D5 /* Constatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB7628EA1CD4003E05D5 /* Constatns.swift */; };
 		8D6671ED28E7082200DDB1A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6671EC28E7082200DDB1A7 /* AppDelegate.swift */; };
 		8D6671EF28E7082200DDB1A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6671EE28E7082200DDB1A7 /* SceneDelegate.swift */; };
 		8D6671F728E7082200DDB1A7 /* BreathMeditation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D6671F528E7082200DDB1A7 /* BreathMeditation.xcdatamodeld */; };
@@ -23,6 +38,10 @@
 		8D66723128E71E5F00DDB1A7 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D66723028E71E5F00DDB1A7 /* UIFont+Ext.swift */; };
 		8D66723C28E72E8200DDB1A7 /* Tungsten-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D66723B28E72E8200DDB1A7 /* Tungsten-Semibold.ttf */; };
 		8DABE81C28E89662000CD7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABE81B28E89662000CD7BA /* Main.storyboard */; };
+		8DFEF62228F054B700A290AA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEF62128F054B600A290AA /* TabBarController.swift */; };
+		8DFEF62428F056D800A290AA /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEF62328F056D800A290AA /* UIView+Ext.swift */; };
+		8DFEF62728F0610A00A290AA /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEF62628F0610A00A290AA /* HomeCell.swift */; };
+		8DFEF62928F0744E00A290AA /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEF62828F0744E00A290AA /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +62,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D0A9DA728F1C188002BDFF0 /* CourseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseVC.swift; sourceTree = "<group>"; };
+		8D0A9DA828F1C188002BDFF0 /* CourseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseVC.xib; sourceTree = "<group>"; };
+		8D0A9DAB28F2D02B002BDFF0 /* UISegmentedControl+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Ext.swift"; sourceTree = "<group>"; };
+		8D0A9DB428F30690002BDFF0 /* VoiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceTableViewCell.swift; sourceTree = "<group>"; };
+		8D0A9DB528F30690002BDFF0 /* VoiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoiceTableViewCell.xib; sourceTree = "<group>"; };
 		8D0E817C28E730B5007B51BE /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		8D3A9BCC28ECBAD700AF6497 /* RemindersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersVC.swift; sourceTree = "<group>"; };
+		8D3A9BCD28ECBAD700AF6497 /* RemindersVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersVC.xib; sourceTree = "<group>"; };
+		8D3A9BD428EF0EB200AF6497 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		8D3A9BD528EF0EB200AF6497 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		8D5FFB5E28E8A09C003E05D5 /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
-		8D5FFB5F28E8A09C003E05D5 /* GetStartedVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GetStartedVC.xib; sourceTree = "<group>"; };
 		8D5FFB6228E8A515003E05D5 /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
 		8D5FFB6528E91EBF003E05D5 /* ChooseTopicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTopicVC.swift; sourceTree = "<group>"; };
-		8D5FFB6628E91EBF003E05D5 /* ChooseTopicVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseTopicVC.xib; sourceTree = "<group>"; };
+		8D5FFB6E28E9BCAC003E05D5 /* TopicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D5FFB7028E9CBDC003E05D5 /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		8D5FFB7228E9CDE3003E05D5 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		8D5FFB7428EA072B003E05D5 /* ChooseTopicVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseTopicVC.xib; sourceTree = "<group>"; };
+		8D5FFB7628EA1CD4003E05D5 /* Constatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatns.swift; sourceTree = "<group>"; };
 		8D6671E928E7082200DDB1A7 /* BreathMeditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathMeditation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6671EC28E7082200DDB1A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D6671EE28E7082200DDB1A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +99,10 @@
 		8D66723A28E72C9900DDB1A7 /* AirbnbCereal_W_Lt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirbnbCereal_W_Lt.otf; sourceTree = "<group>"; };
 		8D66723B28E72E8200DDB1A7 /* Tungsten-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Semibold.ttf"; sourceTree = "<group>"; };
 		8DABE81B28E89662000CD7BA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DFEF62128F054B600A290AA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8DFEF62328F056D800A290AA /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		8DFEF62628F0610A00A290AA /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		8DFEF62828F0744E00A290AA /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +110,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3A9BD228EE042B00AF6497 /* SnapKit in Frameworks */,
+				8D5FFB6D28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayoutObjC in Frameworks */,
+				8D5FFB6B28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +133,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D0A9DA628F1C144002BDFF0 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				8D0A9DA728F1C188002BDFF0 /* CourseVC.swift */,
+				8D0A9DA828F1C188002BDFF0 /* CourseVC.xib */,
+				8D0A9DB328F3065B002BDFF0 /* Cell */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		8D0A9DB328F3065B002BDFF0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8D0A9DB428F30690002BDFF0 /* VoiceTableViewCell.swift */,
+				8D0A9DB528F30690002BDFF0 /* VoiceTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8D3A9BD328EF0DCC00AF6497 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8DFEF62528F060C100A290AA /* Cell */,
+				8D3A9BD428EF0EB200AF6497 /* HomeVC.swift */,
+				8D3A9BD528EF0EB200AF6497 /* HomeVC.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		8D5FFB6428E8E26D003E05D5 /* Choose Topic */ = {
 			isa = PBXGroup;
 			children = (
 				8D5FFB6528E91EBF003E05D5 /* ChooseTopicVC.swift */,
-				8D5FFB6628E91EBF003E05D5 /* ChooseTopicVC.xib */,
+				8D5FFB7428EA072B003E05D5 /* ChooseTopicVC.xib */,
+				8D5FFB6E28E9BCAC003E05D5 /* TopicCollectionViewCell.swift */,
 			);
 			path = "Choose Topic";
 			sourceTree = "<group>";
@@ -159,8 +227,12 @@
 		8D66722128E70CCC00DDB1A7 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				8DFEF62128F054B600A290AA /* TabBarController.swift */,
 				8D66722228E70CE700DDB1A7 /* GetStarted */,
 				8D5FFB6428E8E26D003E05D5 /* Choose Topic */,
+				8D8B268E28EB614000B5E81A /* Reminders */,
+				8D3A9BD328EF0DCC00AF6497 /* Home */,
+				8D0A9DA628F1C144002BDFF0 /* Course */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -170,7 +242,6 @@
 			children = (
 				8D66722728E70D7D00DDB1A7 /* GetStartedVM.swift */,
 				8D5FFB5E28E8A09C003E05D5 /* GetStartedVC.swift */,
-				8D5FFB5F28E8A09C003E05D5 /* GetStartedVC.xib */,
 			);
 			path = GetStarted;
 			sourceTree = "<group>";
@@ -188,6 +259,7 @@
 		8D66722A28E7150D00DDB1A7 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				8DFEF62828F0744E00A290AA /* Images.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -197,8 +269,12 @@
 			children = (
 				8D66722E28E7165400DDB1A7 /* UIColor+Ext.swift */,
 				8D66723028E71E5F00DDB1A7 /* UIFont+Ext.swift */,
+				8D0A9DAB28F2D02B002BDFF0 /* UISegmentedControl+Ext.swift */,
 				8D0E817C28E730B5007B51BE /* UIImage+Ext.swift */,
 				8D5FFB6228E8A515003E05D5 /* UILabel+Ext.swift */,
+				8D5FFB7028E9CBDC003E05D5 /* UIView+Animation.swift */,
+				8DFEF62328F056D800A290AA /* UIView+Ext.swift */,
+				8D5FFB7228E9CDE3003E05D5 /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -206,6 +282,7 @@
 		8D66722C28E7152D00DDB1A7 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				8D5FFB7628EA1CD4003E05D5 /* Constatns.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -230,6 +307,23 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8D8B268E28EB614000B5E81A /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A9BCC28ECBAD700AF6497 /* RemindersVC.swift */,
+				8D3A9BCD28ECBAD700AF6497 /* RemindersVC.xib */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		8DFEF62528F060C100A290AA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8DFEF62628F0610A00A290AA /* HomeCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -246,6 +340,11 @@
 			dependencies = (
 			);
 			name = BreathMeditation;
+			packageProductDependencies = (
+				8D5FFB6A28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayout */,
+				8D5FFB6C28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayoutObjC */,
+				8D3A9BD128EE042B00AF6497 /* SnapKit */,
+			);
 			productName = BreathMeditation;
 			productReference = 8D6671E928E7082200DDB1A7 /* BreathMeditation.app */;
 			productType = "com.apple.product-type.application";
@@ -318,6 +417,10 @@
 				Base,
 			);
 			mainGroup = 8D6671E028E7082200DDB1A7;
+			packageReferences = (
+				8D5FFB6928E9B84B003E05D5 /* XCRemoteSwiftPackageReference "CHTCollectionViewWaterfallLayout" */,
+				8D3A9BD028EE042B00AF6497 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 8D6671EA28E7082200DDB1A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -336,10 +439,13 @@
 			files = (
 				8D66723C28E72E8200DDB1A7 /* Tungsten-Semibold.ttf in Resources */,
 				8D6671FC28E7082400DDB1A7 /* LaunchScreen.storyboard in Resources */,
-				8D5FFB6128E8A09C003E05D5 /* GetStartedVC.xib in Resources */,
-				8D5FFB6828E91EBF003E05D5 /* ChooseTopicVC.xib in Resources */,
+				8D3A9BCF28ECBAD700AF6497 /* RemindersVC.xib in Resources */,
+				8D5FFB7528EA072B003E05D5 /* ChooseTopicVC.xib in Resources */,
 				8D6671F928E7082400DDB1A7 /* Assets.xcassets in Resources */,
 				8DABE81C28E89662000CD7BA /* Main.storyboard in Resources */,
+				8D3A9BD728EF0EB200AF6497 /* HomeVC.xib in Resources */,
+				8D0A9DB728F30690002BDFF0 /* VoiceTableViewCell.xib in Resources */,
+				8D0A9DAA28F1C188002BDFF0 /* CourseVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,15 +471,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0E817D28E730B5007B51BE /* UIImage+Ext.swift in Sources */,
+				8D3A9BCE28ECBAD700AF6497 /* RemindersVC.swift in Sources */,
+				8DFEF62728F0610A00A290AA /* HomeCell.swift in Sources */,
+				8D5FFB7328E9CDE3003E05D5 /* UIViewController+Ext.swift in Sources */,
+				8D5FFB7128E9CBDC003E05D5 /* UIView+Animation.swift in Sources */,
 				8D5FFB6728E91EBF003E05D5 /* ChooseTopicVC.swift in Sources */,
 				8D5FFB6328E8A515003E05D5 /* UILabel+Ext.swift in Sources */,
+				8DFEF62228F054B700A290AA /* TabBarController.swift in Sources */,
 				8D66723128E71E5F00DDB1A7 /* UIFont+Ext.swift in Sources */,
 				8D6671F728E7082200DDB1A7 /* BreathMeditation.xcdatamodeld in Sources */,
+				8D0A9DB628F30690002BDFF0 /* VoiceTableViewCell.swift in Sources */,
+				8D0A9DA928F1C188002BDFF0 /* CourseVC.swift in Sources */,
 				8D6671ED28E7082200DDB1A7 /* AppDelegate.swift in Sources */,
+				8D0A9DAC28F2D02B002BDFF0 /* UISegmentedControl+Ext.swift in Sources */,
+				8D3A9BD628EF0EB200AF6497 /* HomeVC.swift in Sources */,
+				8D5FFB6F28E9BCAC003E05D5 /* TopicCollectionViewCell.swift in Sources */,
 				8D66722F28E7165400DDB1A7 /* UIColor+Ext.swift in Sources */,
 				8D5FFB6028E8A09C003E05D5 /* GetStartedVC.swift in Sources */,
+				8DFEF62428F056D800A290AA /* UIView+Ext.swift in Sources */,
 				8D66722828E70D7D00DDB1A7 /* GetStartedVM.swift in Sources */,
+				8DFEF62928F0744E00A290AA /* Images.swift in Sources */,
 				8D6671EF28E7082200DDB1A7 /* SceneDelegate.swift in Sources */,
+				8D5FFB7728EA1CD4003E05D5 /* Constatns.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +823,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D3A9BD028EE042B00AF6497 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		8D5FFB6928E9B84B003E05D5 /* XCRemoteSwiftPackageReference "CHTCollectionViewWaterfallLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chiahsien/CHTCollectionViewWaterfallLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D3A9BD128EE042B00AF6497 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D3A9BD028EE042B00AF6497 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		8D5FFB6A28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D5FFB6928E9B84B003E05D5 /* XCRemoteSwiftPackageReference "CHTCollectionViewWaterfallLayout" */;
+			productName = CHTCollectionViewWaterfallLayout;
+		};
+		8D5FFB6C28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayoutObjC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D5FFB6928E9B84B003E05D5 /* XCRemoteSwiftPackageReference "CHTCollectionViewWaterfallLayout" */;
+			productName = CHTCollectionViewWaterfallLayoutObjC;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8D6671F528E7082200DDB1A7 /* BreathMeditation.xcdatamodeld */ = {
