@@ -45,7 +45,7 @@ class CourseVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("CANSU  <<<< slf")
         tableView.register(VoiceTableViewCell.nib, forCellReuseIdentifier: VoiceTableViewCell.identifier)
         tableView.dataSource = self
         tableView.delegate = self
