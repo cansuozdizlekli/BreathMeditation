@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="basicCourseImage" destination="yEG-39-u5E" id="IfE-JR-nDQ"/>
                 <outlet property="dailyImage" destination="Inz-cf-CWf" id="TMH-8X-c39"/>
+                <outlet property="dailyThoughtLabel" destination="jjP-fV-Ygm" id="Miq-N1-uUn"/>
                 <outlet property="dailyView" destination="yCO-TH-v8a" id="aGw-ji-v5K"/>
                 <outlet property="goodMorningLabel" destination="DFw-dA-eDu" id="wWe-Oj-yko"/>
                 <outlet property="headerTopConstraint" destination="iO6-i0-TKg" id="PnW-FT-OfQ"/>
@@ -118,7 +119,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="176" height="220"/>
                                             <color key="backgroundColor" name="relaxationcolor"/>
                                         </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OG7-NH-jsJ">
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OG7-NH-jsJ">
                                             <rect key="frame" x="97" y="169.99999999999997" width="56" height="30"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="56" id="FEN-do-gK9"/>
@@ -137,6 +138,9 @@
                                                 </attributedString>
                                                 <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </buttonConfiguration>
+                                            <connections>
+                                                <action selector="relaxationButtonTapped:" destination="-1" eventType="touchUpInside" id="BbO-qU-xJS"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Relaxation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WX4-gy-9Xr">
                                             <rect key="frame" x="8" y="100" width="86" height="21"/>
@@ -223,13 +227,39 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yfg-6t-IUa">
+                                    <rect key="frame" x="290" y="30" width="56" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="56" id="2sv-EG-7qc"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain">
+                                        <backgroundConfiguration key="background">
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </backgroundConfiguration>
+                                        <attributedString key="attributedTitle">
+                                            <fragment content="START">
+                                                <attributes>
+                                                    <font key="NSFont" size="10" name="HelveticaNeue"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="baseForegroundColor" name="titleColor"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="dailyThoughtStartButtonTapped:" destination="-1" eventType="touchUpInside" id="tSu-gf-Ee9"/>
+                                    </connections>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" name="daily-color"/>
                             <constraints>
                                 <constraint firstItem="Inz-cf-CWf" firstAttribute="leading" secondItem="yCO-TH-v8a" secondAttribute="leading" id="Mad-7n-9Cb"/>
                                 <constraint firstAttribute="trailing" secondItem="Inz-cf-CWf" secondAttribute="trailing" id="RDs-O2-cHm"/>
                                 <constraint firstItem="Inz-cf-CWf" firstAttribute="top" secondItem="yCO-TH-v8a" secondAttribute="top" id="RGL-Xz-1eE"/>
+                                <constraint firstItem="Yfg-6t-IUa" firstAttribute="top" secondItem="yCO-TH-v8a" secondAttribute="top" constant="30" id="Xqc-gS-dwE"/>
                                 <constraint firstAttribute="bottom" secondItem="Inz-cf-CWf" secondAttribute="bottom" id="p2d-ui-U9n"/>
+                                <constraint firstAttribute="trailing" secondItem="Yfg-6t-IUa" secondAttribute="trailing" constant="22" id="thZ-ID-Lom"/>
+                                <constraint firstAttribute="bottom" secondItem="Yfg-6t-IUa" secondAttribute="bottom" constant="30" id="tjV-py-aZv"/>
                             </constraints>
                         </view>
                     </subviews>

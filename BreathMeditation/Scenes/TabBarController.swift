@@ -31,19 +31,19 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
                                        selectedImage: UIImage(systemName: "house.fill"))
         homeTab.tabBarItem = homeTabItem
         
-        let topicTab = ChooseTopicVC()
-        let topicTabItem = UITabBarItem(title: "Topics",
-                                       image: UIImage(systemName: "person"),
-                                       selectedImage: UIImage(systemName: "person.fill"))
-        topicTab.tabBarItem = topicTabItem
+//        let topicTab = ChooseTopicVC()
+//        let topicTabItem = UITabBarItem(title: "Topics",
+//                                       image: UIImage(systemName: "person"),
+//                                       selectedImage: UIImage(systemName: "person.fill"))
+//        topicTab.tabBarItem = topicTabItem
         
-        let startedTab = GetStartedVC()
-        let startedTabItem = UITabBarItem(title: "Started",
+        let startedTab = ProfileVC()
+        let startedTabItem = UITabBarItem(title: "Profile",
                                        image: UIImage(systemName: "crown"),
                                        selectedImage: UIImage(systemName: "crown.fill"))
         startedTab.tabBarItem = startedTabItem
         
-        self.viewControllers = [homeTab, topicTab, startedTab]
+        self.viewControllers = [homeTab, startedTab]
     }
     
     

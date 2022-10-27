@@ -16,8 +16,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         window?.windowScene = windowScene
-        window?.rootViewController = TabBarController()
+        firstTimeCheck()
         window?.makeKeyAndVisible()
+    }
+    
+    func firstTimeCheck(){
+        if (UserDefaults.standard.value(forKey: "isFirstTime") != nil) == true {
+//            window?.rootViewController = TabBarController()
+            window?.rootViewController = RemindersVC()
+//            window?.rootViewController = FirstVC()
+        }
+        else {
+            window?.rootViewController = FirstVC()
+
+//            window?.rootViewController = GetStartedVC()
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

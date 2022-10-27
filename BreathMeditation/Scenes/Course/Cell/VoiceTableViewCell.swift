@@ -6,6 +6,9 @@
 //
 
 import UIKit
+protocol VoiceTableViewCellDelegate : AnyObject{
+    func playButtonTapped(soundItem: Sound)
+}
 
 class VoiceTableViewCell: UITableViewCell {
     
@@ -17,38 +20,39 @@ class VoiceTableViewCell: UITableViewCell {
         return UINib(nibName: identifier, bundle: nil)
     }
     
-    func setUpUI(with cell : Voice){
-        voiceStartButton.setImage(UIImage(systemName: "play.fill",withConfiguration: UIImage.SymbolConfiguration(pointSize: 12)), for: UIControl.State.normal)
-        voiceStartButton.setTitle("", for: UIControl.State.normal)
-        voiceStartButton.backgroundColor = .primaryIndigo
-        voiceStartButton.tintColor = .primaryWhite
-        voiceStartButton.layer.cornerRadius = 20
-           voiceTitle.text = cellItem.name
-           voiceTime.text = cellItem.time
-       }
-       
-
-       var cellItem: Voice!
-       {
-           didSet {
-               voiceTitle.text = cellItem.name
-               voiceTime.text = cellItem.time
-           }
-       }
-
-
+    var cellItem: Sound! {
+        didSet {
+            voiceTitle.text = cellItem.name
+            voiceTime.text = cellItem.time
+        }
+    }
+    
+    weak var delegate: VoiceTableViewCellDelegate?
+    
+    
     @IBOutlet weak var voiceStartButton: UIButton!
     @IBOutlet weak var voiceTime: UILabel!
     @IBOutlet weak var voiceTitle: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        voiceStartButton.setImage(UIImage(systemName: "play.fill",withConfiguration: UIImage.SymbolConfiguration(pointSize: 12)), for: UIControl.State.normal)
+        voiceStartButton.setTitle("", for: UIControl.State.normal)
+        voiceStartButton.backgroundColor = .primaryWhite
+        voiceStartButton.tintColor = .systemGray2
+        voiceStartButton.layer.borderWidth = 0.15
+        voiceStartButton.layer.cornerRadius = 20
+        voiceStartButton.addTarget(self, action: #selector(voiceStartButtonTapped(_:)), for: .touchUpInside)
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        // Configure the view for the selected state
     }
+    
+    
+    @objc private func voiceStartButtonTapped(_ sender: UIButton) {
+        delegate?.playButtonTapped(soundItem: cellItem)
+    }
+    
     
 }

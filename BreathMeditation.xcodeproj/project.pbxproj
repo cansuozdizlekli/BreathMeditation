@@ -13,12 +13,13 @@
 		8D0A9DB628F30690002BDFF0 /* VoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9DB428F30690002BDFF0 /* VoiceTableViewCell.swift */; };
 		8D0A9DB728F30690002BDFF0 /* VoiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DB528F30690002BDFF0 /* VoiceTableViewCell.xib */; };
 		8D0E817D28E730B5007B51BE /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E817C28E730B5007B51BE /* UIImage+Ext.swift */; };
+		8D31E82B29080464002CB054 /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D31E82A29080464002CB054 /* UITextField+Ext.swift */; };
+		8D31E82D29080D46002CB054 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D31E82C29080D46002CB054 /* GoogleService-Info (1).plist */; };
 		8D3A9BCE28ECBAD700AF6497 /* RemindersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A9BCC28ECBAD700AF6497 /* RemindersVC.swift */; };
 		8D3A9BCF28ECBAD700AF6497 /* RemindersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A9BCD28ECBAD700AF6497 /* RemindersVC.xib */; };
 		8D3A9BD228EE042B00AF6497 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3A9BD128EE042B00AF6497 /* SnapKit */; };
 		8D3A9BD628EF0EB200AF6497 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A9BD428EF0EB200AF6497 /* HomeVC.swift */; };
 		8D3A9BD728EF0EB200AF6497 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A9BD528EF0EB200AF6497 /* HomeVC.xib */; };
-		8D5FFB6028E8A09C003E05D5 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB5E28E8A09C003E05D5 /* GetStartedVC.swift */; };
 		8D5FFB6328E8A515003E05D5 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB6228E8A515003E05D5 /* UILabel+Ext.swift */; };
 		8D5FFB6728E91EBF003E05D5 /* ChooseTopicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFB6528E91EBF003E05D5 /* ChooseTopicVC.swift */; };
 		8D5FFB6B28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 8D5FFB6A28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayout */; };
@@ -37,7 +38,22 @@
 		8D66722F28E7165400DDB1A7 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D66722E28E7165400DDB1A7 /* UIColor+Ext.swift */; };
 		8D66723128E71E5F00DDB1A7 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D66723028E71E5F00DDB1A7 /* UIFont+Ext.swift */; };
 		8D66723C28E72E8200DDB1A7 /* Tungsten-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D66723B28E72E8200DDB1A7 /* Tungsten-Semibold.ttf */; };
+		8D96E0852906CAB800C0AA6B /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D96E0832906CAB800C0AA6B /* FirstVC.swift */; };
+		8D96E0862906CAB800C0AA6B /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D96E0842906CAB800C0AA6B /* FirstVC.xib */; };
+		8D96E08E2906D8B500C0AA6B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D96E08C2906D8B500C0AA6B /* LoginVC.swift */; };
+		8D96E08F2906D8B500C0AA6B /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D96E08D2906D8B500C0AA6B /* LoginVC.xib */; };
+		8D96E0932906D9C600C0AA6B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D96E0912906D9C600C0AA6B /* SignUpVC.swift */; };
+		8D96E0942906D9C600C0AA6B /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D96E0922906D9C600C0AA6B /* SignUpVC.xib */; };
 		8DABE81C28E89662000CD7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABE81B28E89662000CD7BA /* Main.storyboard */; };
+		8DE0A3CE28F3FE36002BF89E /* VoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0A3CC28F3FE36002BF89E /* VoiceVC.swift */; };
+		8DE0A3CF28F3FE36002BF89E /* VoiceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0A3CD28F3FE36002BF89E /* VoiceVC.xib */; };
+		8DE0A3D428F5CD2D002BF89E /* Focus Attention.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0A3D328F5CD2D002BF89E /* Focus Attention.mp3 */; };
+		8DF2849228F98BEF00F913A7 /* Body Scan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DF2849128F98BEF00F913A7 /* Body Scan.mp3 */; };
+		8DF2849528F9BB9800F913A7 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2849328F9BB9800F913A7 /* GetStartedVC.swift */; };
+		8DF2849628F9BB9800F913A7 /* GetStartedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF2849428F9BB9800F913A7 /* GetStartedVC.xib */; };
+		8DF2849A28FC2EA200F913A7 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2849828FC2EA200F913A7 /* ProfileVC.swift */; };
+		8DF2849B28FC2EA200F913A7 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF2849928FC2EA200F913A7 /* ProfileVC.xib */; };
+		8DF94D25290069FB00AB0F9B /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF94D24290069FB00AB0F9B /* CourseModel.swift */; };
 		8DFEF62228F054B700A290AA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEF62128F054B600A290AA /* TabBarController.swift */; };
 		8DFEF62428F056D800A290AA /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEF62328F056D800A290AA /* UIView+Ext.swift */; };
 		8DFEF62728F0610A00A290AA /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFEF62628F0610A00A290AA /* HomeCell.swift */; };
@@ -68,11 +84,12 @@
 		8D0A9DB428F30690002BDFF0 /* VoiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceTableViewCell.swift; sourceTree = "<group>"; };
 		8D0A9DB528F30690002BDFF0 /* VoiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoiceTableViewCell.xib; sourceTree = "<group>"; };
 		8D0E817C28E730B5007B51BE /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		8D31E82A29080464002CB054 /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
+		8D31E82C29080D46002CB054 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		8D3A9BCC28ECBAD700AF6497 /* RemindersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersVC.swift; sourceTree = "<group>"; };
 		8D3A9BCD28ECBAD700AF6497 /* RemindersVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersVC.xib; sourceTree = "<group>"; };
 		8D3A9BD428EF0EB200AF6497 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		8D3A9BD528EF0EB200AF6497 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
-		8D5FFB5E28E8A09C003E05D5 /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
 		8D5FFB6228E8A515003E05D5 /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
 		8D5FFB6528E91EBF003E05D5 /* ChooseTopicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTopicVC.swift; sourceTree = "<group>"; };
 		8D5FFB6E28E9BCAC003E05D5 /* TopicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -98,7 +115,22 @@
 		8D66723928E72C9700DDB1A7 /* AirbnbCereal_W_Md.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirbnbCereal_W_Md.otf; sourceTree = "<group>"; };
 		8D66723A28E72C9900DDB1A7 /* AirbnbCereal_W_Lt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirbnbCereal_W_Lt.otf; sourceTree = "<group>"; };
 		8D66723B28E72E8200DDB1A7 /* Tungsten-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Semibold.ttf"; sourceTree = "<group>"; };
+		8D96E0832906CAB800C0AA6B /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		8D96E0842906CAB800C0AA6B /* FirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		8D96E08C2906D8B500C0AA6B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8D96E08D2906D8B500C0AA6B /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		8D96E0912906D9C600C0AA6B /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		8D96E0922906D9C600C0AA6B /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
 		8DABE81B28E89662000CD7BA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DE0A3CC28F3FE36002BF89E /* VoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceVC.swift; sourceTree = "<group>"; };
+		8DE0A3CD28F3FE36002BF89E /* VoiceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoiceVC.xib; sourceTree = "<group>"; };
+		8DE0A3D328F5CD2D002BF89E /* Focus Attention.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Focus Attention.mp3"; sourceTree = "<group>"; };
+		8DF2849128F98BEF00F913A7 /* Body Scan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Body Scan.mp3"; sourceTree = "<group>"; };
+		8DF2849328F9BB9800F913A7 /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
+		8DF2849428F9BB9800F913A7 /* GetStartedVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GetStartedVC.xib; sourceTree = "<group>"; };
+		8DF2849828FC2EA200F913A7 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		8DF2849928FC2EA200F913A7 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		8DF94D24290069FB00AB0F9B /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 		8DFEF62128F054B600A290AA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		8DFEF62328F056D800A290AA /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		8DFEF62628F0610A00A290AA /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
@@ -193,11 +225,13 @@
 		8D6671EB28E7082200DDB1A7 /* BreathMeditation */ = {
 			isa = PBXGroup;
 			children = (
+				8D31E82C29080D46002CB054 /* GoogleService-Info (1).plist */,
 				8D66723228E721F700DDB1A7 /* Resources */,
 				8D66722D28E715BC00DDB1A7 /* Model */,
 				8D66721F28E70BE100DDB1A7 /* System */,
 				8D66722128E70CCC00DDB1A7 /* Scenes */,
 				8D66722028E70BF700DDB1A7 /* CoreData */,
+				8DE0A3D028F5CB9A002BF89E /* Sounds */,
 				8D66722928E7150500DDB1A7 /* Helper */,
 			);
 			path = BreathMeditation;
@@ -229,10 +263,15 @@
 			children = (
 				8DFEF62128F054B600A290AA /* TabBarController.swift */,
 				8D66722228E70CE700DDB1A7 /* GetStarted */,
+				8DF2849728FC2E8700F913A7 /* Profile */,
 				8D5FFB6428E8E26D003E05D5 /* Choose Topic */,
 				8D8B268E28EB614000B5E81A /* Reminders */,
 				8D3A9BD328EF0DCC00AF6497 /* Home */,
 				8D0A9DA628F1C144002BDFF0 /* Course */,
+				8D96E0902906D99100C0AA6B /* SignUp */,
+				8D96E0872906D84300C0AA6B /* Log In */,
+				8D96E0822906CA1300C0AA6B /* Sign Up and Sign In */,
+				8DE0A3CB28F3FDEF002BF89E /* Music */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -241,7 +280,8 @@
 			isa = PBXGroup;
 			children = (
 				8D66722728E70D7D00DDB1A7 /* GetStartedVM.swift */,
-				8D5FFB5E28E8A09C003E05D5 /* GetStartedVC.swift */,
+				8DF2849328F9BB9800F913A7 /* GetStartedVC.swift */,
+				8DF2849428F9BB9800F913A7 /* GetStartedVC.xib */,
 			);
 			path = GetStarted;
 			sourceTree = "<group>";
@@ -274,6 +314,7 @@
 				8D5FFB6228E8A515003E05D5 /* UILabel+Ext.swift */,
 				8D5FFB7028E9CBDC003E05D5 /* UIView+Animation.swift */,
 				8DFEF62328F056D800A290AA /* UIView+Ext.swift */,
+				8D31E82A29080464002CB054 /* UITextField+Ext.swift */,
 				8D5FFB7228E9CDE3003E05D5 /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
@@ -290,6 +331,7 @@
 		8D66722D28E715BC00DDB1A7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8DF94D24290069FB00AB0F9B /* CourseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -314,6 +356,60 @@
 				8D3A9BCD28ECBAD700AF6497 /* RemindersVC.xib */,
 			);
 			path = Reminders;
+			sourceTree = "<group>";
+		};
+		8D96E0822906CA1300C0AA6B /* Sign Up and Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				8D96E0832906CAB800C0AA6B /* FirstVC.swift */,
+				8D96E0842906CAB800C0AA6B /* FirstVC.xib */,
+			);
+			path = "Sign Up and Sign In";
+			sourceTree = "<group>";
+		};
+		8D96E0872906D84300C0AA6B /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				8D96E08C2906D8B500C0AA6B /* LoginVC.swift */,
+				8D96E08D2906D8B500C0AA6B /* LoginVC.xib */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		8D96E0902906D99100C0AA6B /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				8D96E0912906D9C600C0AA6B /* SignUpVC.swift */,
+				8D96E0922906D9C600C0AA6B /* SignUpVC.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		8DE0A3CB28F3FDEF002BF89E /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				8DE0A3CC28F3FE36002BF89E /* VoiceVC.swift */,
+				8DE0A3CD28F3FE36002BF89E /* VoiceVC.xib */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		8DE0A3D028F5CB9A002BF89E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8DE0A3D328F5CD2D002BF89E /* Focus Attention.mp3 */,
+				8DF2849128F98BEF00F913A7 /* Body Scan.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		8DF2849728FC2E8700F913A7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8DF2849828FC2EA200F913A7 /* ProfileVC.swift */,
+				8DF2849928FC2EA200F913A7 /* ProfileVC.xib */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		8DFEF62528F060C100A290AA /* Cell */ = {
@@ -437,15 +533,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF2849628F9BB9800F913A7 /* GetStartedVC.xib in Resources */,
+				8D31E82D29080D46002CB054 /* GoogleService-Info (1).plist in Resources */,
 				8D66723C28E72E8200DDB1A7 /* Tungsten-Semibold.ttf in Resources */,
 				8D6671FC28E7082400DDB1A7 /* LaunchScreen.storyboard in Resources */,
 				8D3A9BCF28ECBAD700AF6497 /* RemindersVC.xib in Resources */,
+				8DF2849B28FC2EA200F913A7 /* ProfileVC.xib in Resources */,
 				8D5FFB7528EA072B003E05D5 /* ChooseTopicVC.xib in Resources */,
 				8D6671F928E7082400DDB1A7 /* Assets.xcassets in Resources */,
+				8DE0A3D428F5CD2D002BF89E /* Focus Attention.mp3 in Resources */,
+				8DF2849228F98BEF00F913A7 /* Body Scan.mp3 in Resources */,
 				8DABE81C28E89662000CD7BA /* Main.storyboard in Resources */,
 				8D3A9BD728EF0EB200AF6497 /* HomeVC.xib in Resources */,
+				8DE0A3CF28F3FE36002BF89E /* VoiceVC.xib in Resources */,
 				8D0A9DB728F30690002BDFF0 /* VoiceTableViewCell.xib in Resources */,
 				8D0A9DAA28F1C188002BDFF0 /* CourseVC.xib in Resources */,
+				8D96E08F2906D8B500C0AA6B /* LoginVC.xib in Resources */,
+				8D96E0862906CAB800C0AA6B /* FirstVC.xib in Resources */,
+				8D96E0942906D9C600C0AA6B /* SignUpVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,13 +575,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF94D25290069FB00AB0F9B /* CourseModel.swift in Sources */,
+				8D31E82B29080464002CB054 /* UITextField+Ext.swift in Sources */,
 				8D0E817D28E730B5007B51BE /* UIImage+Ext.swift in Sources */,
+				8D96E08E2906D8B500C0AA6B /* LoginVC.swift in Sources */,
 				8D3A9BCE28ECBAD700AF6497 /* RemindersVC.swift in Sources */,
 				8DFEF62728F0610A00A290AA /* HomeCell.swift in Sources */,
 				8D5FFB7328E9CDE3003E05D5 /* UIViewController+Ext.swift in Sources */,
 				8D5FFB7128E9CBDC003E05D5 /* UIView+Animation.swift in Sources */,
+				8DF2849A28FC2EA200F913A7 /* ProfileVC.swift in Sources */,
+				8D96E0852906CAB800C0AA6B /* FirstVC.swift in Sources */,
 				8D5FFB6728E91EBF003E05D5 /* ChooseTopicVC.swift in Sources */,
 				8D5FFB6328E8A515003E05D5 /* UILabel+Ext.swift in Sources */,
+				8DE0A3CE28F3FE36002BF89E /* VoiceVC.swift in Sources */,
 				8DFEF62228F054B700A290AA /* TabBarController.swift in Sources */,
 				8D66723128E71E5F00DDB1A7 /* UIFont+Ext.swift in Sources */,
 				8D6671F728E7082200DDB1A7 /* BreathMeditation.xcdatamodeld in Sources */,
@@ -486,9 +597,10 @@
 				8D0A9DAC28F2D02B002BDFF0 /* UISegmentedControl+Ext.swift in Sources */,
 				8D3A9BD628EF0EB200AF6497 /* HomeVC.swift in Sources */,
 				8D5FFB6F28E9BCAC003E05D5 /* TopicCollectionViewCell.swift in Sources */,
+				8D96E0932906D9C600C0AA6B /* SignUpVC.swift in Sources */,
 				8D66722F28E7165400DDB1A7 /* UIColor+Ext.swift in Sources */,
-				8D5FFB6028E8A09C003E05D5 /* GetStartedVC.swift in Sources */,
 				8DFEF62428F056D800A290AA /* UIView+Ext.swift in Sources */,
+				8DF2849528F9BB9800F913A7 /* GetStartedVC.swift in Sources */,
 				8D66722828E70D7D00DDB1A7 /* GetStartedVM.swift in Sources */,
 				8DFEF62928F0744E00A290AA /* Images.swift in Sources */,
 				8D6671EF28E7082200DDB1A7 /* SceneDelegate.swift in Sources */,

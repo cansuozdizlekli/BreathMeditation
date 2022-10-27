@@ -61,6 +61,7 @@
                                     <constraints>
                                         <constraint firstAttribute="height" constant="200" id="Poz-Ld-r6m"/>
                                     </constraints>
+                                    <locale key="locale" localeIdentifier="tr_TR"/>
                                 </datePicker>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which day would you like to meditate?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jA-iC-LvE">
                                     <rect key="frame" x="15" y="378" width="250" height="70"/>
@@ -75,11 +76,12 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8.6999999999999993" translatesAutoresizingMaskIntoConstraints="NO" id="xck-ey-22L">
                                     <rect key="frame" x="15" y="521" width="345" height="42"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v75-sQ-deu">
+                                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v75-sQ-deu">
                                             <rect key="frame" x="0.0" y="0.0" width="42" height="42"/>
                                             <color key="backgroundColor" name="titleColor"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain">
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Button">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="SU">
                                                         <attributes>
@@ -88,14 +90,18 @@
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
-                                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </buttonConfiguration>
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="sundayButtonClicked:" destination="-1" eventType="touchUpInside" id="25u-V9-FoP"/>
+                                            </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAB-27-yx4">
+                                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VAB-27-yx4">
                                             <rect key="frame" x="50.666666666666671" y="0.0" width="41.666666666666671" height="42"/>
                                             <color key="backgroundColor" name="titleColor"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain">
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Button">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="M">
                                                         <attributes>
@@ -104,14 +110,18 @@
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
-                                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </buttonConfiguration>
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="mondayButtonClicked:" destination="-1" eventType="touchUpInside" id="3KV-IH-3cf"/>
+                                            </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQA-bu-ndI">
+                                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mQA-bu-ndI">
                                             <rect key="frame" x="101" y="0.0" width="42" height="42"/>
                                             <color key="backgroundColor" name="titleColor"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain">
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Button">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="T">
                                                         <attributes>
@@ -120,14 +130,18 @@
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
-                                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </buttonConfiguration>
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="tuesdayButtonClicked:" destination="-1" eventType="touchUpInside" id="zl3-75-YWO"/>
+                                            </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnN-2f-cFH">
+                                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jnN-2f-cFH">
                                             <rect key="frame" x="151.66666666666666" y="0.0" width="41.666666666666657" height="42"/>
                                             <color key="backgroundColor" name="titleColor"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain">
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Button">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="W">
                                                         <attributes>
@@ -136,14 +150,18 @@
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
-                                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </buttonConfiguration>
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="wednesdayButtonClicked:" destination="-1" eventType="touchUpInside" id="MCd-Zr-ZKN"/>
+                                            </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6m-Bf-XNd">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p6m-Bf-XNd">
                                             <rect key="frame" x="202" y="0.0" width="42" height="42"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain">
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Button">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="TH">
                                                         <attributes>
@@ -152,14 +170,18 @@
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
-                                                <color key="baseForegroundColor" name="titleColor"/>
-                                            </buttonConfiguration>
+                                                <color key="titleColor" name="titleColor"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="thursdayButtonClicked:" destination="-1" eventType="touchUpInside" id="gHD-7T-rKd"/>
+                                            </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oV-aa-X2g">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6oV-aa-X2g">
                                             <rect key="frame" x="252.66666666666666" y="0.0" width="41.666666666666657" height="42"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain">
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Button">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="F">
                                                         <attributes>
@@ -168,14 +190,18 @@
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
-                                                <color key="baseForegroundColor" name="titleColor"/>
-                                            </buttonConfiguration>
+                                                <color key="titleColor" name="titleColor"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="fridayButtonClicked:" destination="-1" eventType="touchUpInside" id="QTv-ba-xOp"/>
+                                            </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xph-sz-fdh">
+                                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xph-sz-fdh">
                                             <rect key="frame" x="303" y="0.0" width="42" height="42"/>
                                             <color key="backgroundColor" name="titleColor"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain">
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Button">
                                                 <attributedString key="attributedTitle">
                                                     <fragment content="S">
                                                         <attributes>
@@ -184,8 +210,11 @@
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
-                                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </buttonConfiguration>
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="saturdayButtonClicked:" destination="-1" eventType="touchUpInside" id="Anp-et-kqK"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -201,6 +230,9 @@
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="SAVE"/>
+                                    <connections>
+                                        <action selector="saveClicked:" destination="-1" eventType="touchUpInside" id="fmp-Vx-puD"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfP-WS-HaY">
                                     <rect key="frame" x="80" y="671" width="215" height="20"/>
@@ -219,6 +251,9 @@
                                         </attributedString>
                                         <color key="baseForegroundColor" name="titleColor"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="noThanksClicked:" destination="-1" eventType="touchUpInside" id="t33-mC-xuy"/>
+                                    </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Everyday is best, but we recommend picking\nat least five." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1R-Sh-fwy">
                                     <rect key="frame" x="15" y="453" width="345" height="48"/>

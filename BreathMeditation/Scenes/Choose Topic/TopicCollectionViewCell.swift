@@ -69,6 +69,7 @@ class TopicCollectionViewCell: UICollectionViewCell {
         self.title.text = cellItem.topicTitle
         self.newImage.image = cellItem.topicImage
         self.newHeight = cellItem.topicHeight
+        
     }
     
 }

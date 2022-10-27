@@ -2,56 +2,50 @@
 //  GetStartedVC.swift
 //  BreathMeditation
 //
-//  Created by Cansu Özdizlekli on 10/1/22.
+//  Created by Cansu Özdizlekli on 10/14/22.
 //
 
 import UIKit
-import SnapKit
-
 
 class GetStartedVC: UIViewController {
-    
-//    @IBOutlet weak var breathLabel: UILabel!
-//    @IBOutlet weak var meditationLabel: UILabel!
-//    @IBOutlet weak var welcomeLabel: UILabel!
-//    @IBOutlet weak var secondWelcomeLabel: UILabel!
-//    @IBOutlet weak var sloganLabel: UILabel!
-//    @IBOutlet weak var getStartedButton: UIButton!
-    
+
+    @IBOutlet weak var getStartedButton: UIButton!
+    @IBOutlet weak var womanImageBottomConstraint: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
+        editConstraint()
+        setUpUI()
         
-        view.backgroundColor = UIColor.primaryWhite
-////        getStartedButton.backgroundColor = UIColor.secondaryWhite
-////        getStartedButton.layer.cornerRadius = 30
-//        setUpTexts()
     }
     
-//    func setUpTexts(){
-//        breathLabel.addCharacterSpacing()
-////        breathLabel.textColor = UIColor.primaryWhite
-////        breathLabel.layer.opacity = 0.8
-//
-//        meditationLabel.addCharacterSpacing()
-////        meditationLabel.textColor = UIColor.primaryWhite
-////        meditationLabel.layer.opacity = 0.8
-//
-////        welcomeLabel.textColor = UIColor.secondaryWhite
-////        sloganLabel.textColor = .white
-////        sloganLabel.alpha = 0.9
-////        secondWelcomeLabel.textColor = UIColor.secondaryWhite
-//        sloganLabel.addDropShadow()
-//    }
+    private func editConstraint() {
+        if screenHeight > 600 && screenHeight < 800 {
+            womanImageBottomConstraint!.constant = -100
+            print("cansu 700den buyuk")
+        }
+        if screenHeight > 800 && screenHeight < 900  {
+            womanImageBottomConstraint!.constant = -20
+            print(screenHeight)
+            print("800den buyuk")
+        }
+        if screenHeight > 900 {
+            womanImageBottomConstraint!.constant = 0
+            print(screenHeight)
+            print("900den buyuk")
+        }
 
-//
-//    @IBAction func getStartedButtonClicked(_ sender: UIButton) {
-//        sender.bounceAnimate()
-//        self.presentVC(to: ChooseTopicVC())
-//    }
+    }
+    
+    private func setUpUI(){
+        getStartedButton.layer.cornerRadius = 30
+        getStartedButton.layer.masksToBounds = true
+        getStartedButton.backgroundColor = .secondaryWhite
+    }
+
+
+    @IBAction func getStartedButtonClicked(_ sender: Any) {
+//        self.present(TabBarController(), animated: true)
+        self.presentVC(to: ChooseTopicVC())
+    }
     
 }
-
-
-// 2 ay sonra seni bizim şirkete intern iOS developer olarak alalım mı ister misin bi sorayım mı?
-// pınarrrr abplaaaaaaaaaaaaaaaaaaaammmmmmm
-// demetttt abplaaaaaaaaaaaaaaaaaaaammmmmmm

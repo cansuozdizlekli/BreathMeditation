@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>27594490001-9qo6akd51pa2q261jtr3btm0u1h055p3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.27594490001-9qo6akd51pa2q261jtr3btm0u1h055p3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBLc_KKW7ZbaE3K3_yGINKc3JrgGS1_35s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>27594490001</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cansuozdizlekli.BreathMeditation</string>
+	<key>PROJECT_ID</key>
+	<string>breathmeditation-3fcd4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>breathmeditation-3fcd4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:27594490001:ios:37693bdb7f531fc8a17f30</string>
+</dict>
+</plist>

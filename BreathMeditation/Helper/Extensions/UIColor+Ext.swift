@@ -14,6 +14,7 @@ extension UIColor {
     static let secondaryWhite = UIColor.init(red: 235, green: 234, blue: 236)
     static let primaryTitleColor = UIColor.init(red: 63, green: 65, blue: 79)
     static let focusBackground = UIColor.init(red: 164, green: 221, blue: 196)
+    static let playPauseButtonBorder = UIColor.init(red: 186, green: 188, blue: 198)
     
 }
 
