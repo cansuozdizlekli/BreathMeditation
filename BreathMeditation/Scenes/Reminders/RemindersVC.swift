@@ -29,6 +29,8 @@ class RemindersVC: UIViewController, UNUserNotificationCenterDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpItems()
+        
+        
     }
     
 
@@ -68,78 +70,63 @@ class RemindersVC: UIViewController, UNUserNotificationCenterDelegate {
     var isButtonTapped = false
     @IBAction func saveClicked(_ sender: Any) {
         if(!isButtonTapped){
+            askPermission()
             UserDefaults.standard.set(timeNotification, forKey: "notificationTime")
             UserDefaults.standard.set(days, forKey: "notificationDays")
-            let hourAndMinuteArr = timeNotification.components(separatedBy: ":")
-            print("cansu",hourAndMinuteArr[0])
-            print("cansu",hourAndMinuteArr[1])
-            //            timePicker.timeZone = .current
-            //            let dateComp = Calendar.current.dateComponents([.year,.month,.day,.weekday, .hour, .minute], from: timePicker.date)
-            //            print("ğ",dateComp)
-            //
-            //
-            //            let formatter = DateFormatter()
-            //            formatter.dateFormat = "yyyy/MM/dd HH:mm"
-            //            let timeZoneAbb = TimeZone.current.abbreviation()
-            //            print("some", timeZoneAbb)
-            //            let a = timeZoneAbb?.components(separatedBy: "+")
-            //            let b = a![1]
-            //
-            //            formatter.timeZone = TimeZone(secondsFromGMT: Int(b)!)
-            //            print("some", dateComp.hour)
-            //            let dateCansu = "\(dateComp.year!)/\(dateComp.month!)/\(dateComp.day!) \(dateComp.hour!):\(dateComp.minute!)"
-            ////            let dateCansu = "2022/10/08 20:31"
-            //            let someDateTime = formatter.date(from: dateCansu)
-            //
-            //
-            ////            // Create date from components
-            ////            let userCalendar = Calendar(identifier: .gregorian) // since the components above (like year 1980) are for Gregorian
-            ////            let someDateTime = userCalendar.date(from: dateComp)
-            //            print("some",someDateTime)
-            
-            for day in days {
-                if day == "SU"{
-                    let notiDay = createDate(weekday: 1, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
-                    print("bildirim gonderilecek gunler:",notiDay)
-
-                }
-                if day == "M"{
-                    let notiDay = createDate(weekday: 2, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
-                    print("bildirim gonderilecek gunler:",notiDay)
-
-                }
-                if day == "T"{
-                    let notiDay = createDate(weekday: 3, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
-                    print("bildirim gonderilecek gunler:",notiDay)
-
-                    
-                }
-                if day == "W"{
-                    let notiDay = createDate(weekday: 4, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
-                    print("bildirim gonderilecek gunler:",notiDay)
-
-                }
-                if day == "TH"{
-                    let notiDay = createDate(weekday: 5, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
-                    print("bildirim gonderilecek gunler:",notiDay)
-
-                }
-                if day == "F"{
-                    let notiDay = createDate(weekday: 6, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
-                    print("bildirim gonderilecek gunler:",notiDay)
-
-                }
-                if day == "S"{
-                    let notiDay = createDate(weekday: 7, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
-                    print("bildirim gonderilecek gunler:",notiDay)
-                    
-                }
                 isButtonTapped = true
-            } }else {
+             }else {
+                let hourAndMinuteArr = timeNotification.components(separatedBy: ":")
+                print("cansu",hourAndMinuteArr[0])
+                print("cansu",hourAndMinuteArr[1])
+                 for day in days {
+                     if day == "SU"{
+                         let notiDay = createDate(weekday: 1, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
+                         print("bildirim gonderilecek gunler:",notiDay)
+                         
+                     }
+                     if day == "M"{
+                         let notiDay = createDate(weekday: 2, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
+                         print("bildirim gonderilecek gunler:",notiDay)
+                         
+                     }
+                     if day == "T"{
+                         let notiDay = createDate(weekday: 3, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
+                         print("bildirim gonderilecek gunler:",notiDay)
+                         
+                     }
+                     if day == "W"{
+                         let notiDay = createDate(weekday: 4, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
+                         print("bildirim gonderilecek gunler:",notiDay)
+                         
+                     }
+                     if day == "TH"{
+                         let notiDay = createDate(weekday: 5, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
+                         print("bildirim gonderilecek gunler:",notiDay)
+                         
+                     }
+                     if day == "F"{
+                         let notiDay = createDate(weekday: 6, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
+                         print("bildirim gonderilecek gunler:",notiDay)
+                         
+                     }
+                     if day == "S"{
+                         let notiDay = createDate(weekday: 7, hour: Int(hourAndMinuteArr[0])!, minute: Int(hourAndMinuteArr[1])!)
+                         print("bildirim gonderilecek gunler:",notiDay)
+                     }}
                 self.presentVC(to: TabBarController())
             }
             
         }
+    
+    private func askPermission(){
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.badge, .sound , .alert]) { granted, error in
+            if error == nil {
+                print("user permission is granted : \(granted)" )
+            }
+        }
+    }
+
         
     
     
@@ -147,8 +134,10 @@ class RemindersVC: UIViewController, UNUserNotificationCenterDelegate {
     func createDate(weekday: Int, hour: Int, minute: Int)->Date{
         timePicker.timeZone = .current
         var dateComp = Calendar.current.dateComponents([.weekday, .hour, .minute], from: timePicker.date)
-        print("ğ",dateComp)
         dateComp.weekday = weekday
+        dateComp.minute = minute
+        dateComp.hour = hour
+        print("ğ",dateComp)
         
         let formatter = DateFormatter()
         formatter.dateFormat = "HH:mm"
@@ -158,19 +147,17 @@ class RemindersVC: UIViewController, UNUserNotificationCenterDelegate {
         let b = a![1]
         formatter.timeZone = TimeZone(secondsFromGMT: Int(b)!)
         
-        print("some", dateComp.weekday)
+        print("some", dateComp.weekday!)
         let dateCansu = "\(dateComp.hour!):\(dateComp.minute!)"
         let someDateTime = formatter.date(from: dateCansu)!
         
         print("some", dateCansu,someDateTime)
         
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComp, repeats: true)
-
         let content = UNMutableNotificationContent()
-        content.title = "titles"
-        content.body = "Meditation ?"
-        content.categoryIdentifier = "todoList"
-
+        content.title = "Meditation ?"
+        content.body = "daily reminder"
+        
                     
         print("trigger weekly", dateComp)
 
@@ -185,11 +172,7 @@ class RemindersVC: UIViewController, UNUserNotificationCenterDelegate {
 
         return someDateTime
     }
-    
-    
-    
-    
-    
+ 
     
     @IBAction func noThanksClicked(_ sender: Any) {
         UserDefaults.standard.removeObject(forKey: "notificationTime")

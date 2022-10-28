@@ -23,11 +23,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func firstTimeCheck(){
         if (UserDefaults.standard.value(forKey: "isFirstTime") != nil) == true {
 //            window?.rootViewController = TabBarController()
-            window?.rootViewController = RemindersVC()
+            window?.rootViewController = GetStartedVC()
 //            window?.rootViewController = FirstVC()
         }
         else {
-            window?.rootViewController = FirstVC()
+            window?.rootViewController = GetStartedVC()
 
 //            window?.rootViewController = GetStartedVC()
         }
