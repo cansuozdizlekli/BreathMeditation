@@ -13,8 +13,12 @@
 		8D0A9DB628F30690002BDFF0 /* VoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9DB428F30690002BDFF0 /* VoiceTableViewCell.swift */; };
 		8D0A9DB728F30690002BDFF0 /* VoiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DB528F30690002BDFF0 /* VoiceTableViewCell.xib */; };
 		8D0E817D28E730B5007B51BE /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E817C28E730B5007B51BE /* UIImage+Ext.swift */; };
+		8D2791A7290D579500CC3436 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2791A6290D579500CC3436 /* GoogleService-Info.plist */; };
+		8D2791AA290D58BA00CC3436 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8D2791A9290D58BA00CC3436 /* FirebaseAnalytics */; };
+		8D2791AC290D58BA00CC3436 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8D2791AB290D58BA00CC3436 /* FirebaseAuth */; };
+		8D2791AE290D58BA00CC3436 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8D2791AD290D58BA00CC3436 /* FirebaseDatabase */; };
+		8D2791B0290D58BA00CC3436 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8D2791AF290D58BA00CC3436 /* FirebaseStorage */; };
 		8D31E82B29080464002CB054 /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D31E82A29080464002CB054 /* UITextField+Ext.swift */; };
-		8D31E82D29080D46002CB054 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D31E82C29080D46002CB054 /* GoogleService-Info (1).plist */; };
 		8D3A9BCE28ECBAD700AF6497 /* RemindersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A9BCC28ECBAD700AF6497 /* RemindersVC.swift */; };
 		8D3A9BCF28ECBAD700AF6497 /* RemindersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A9BCD28ECBAD700AF6497 /* RemindersVC.xib */; };
 		8D3A9BD228EE042B00AF6497 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3A9BD128EE042B00AF6497 /* SnapKit */; };
@@ -46,6 +50,10 @@
 		8D96E0942906D9C600C0AA6B /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D96E0922906D9C600C0AA6B /* SignUpVC.xib */; };
 		8DABE81C28E89662000CD7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABE81B28E89662000CD7BA /* Main.storyboard */; };
 		8DB2A409290B01C100A8CD67 /* CourseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2A408290B01C100A8CD67 /* CourseFactory.swift */; };
+		8DB2A40B290C084A00A8CD67 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2A40A290C084A00A8CD67 /* UIButton+Ext.swift */; };
+		8DD6EE9F290DB9CD00B0520B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 8DD6EE9E290DB9CD00B0520B /* GoogleSignIn */; };
+		8DD6EEA1290DB9CD00B0520B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8DD6EEA0290DB9CD00B0520B /* GoogleSignInSwift */; };
+		8DD6EEA5291137B800B0520B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6EEA4291137B800B0520B /* UserModel.swift */; };
 		8DE0A3CE28F3FE36002BF89E /* VoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0A3CC28F3FE36002BF89E /* VoiceVC.swift */; };
 		8DE0A3CF28F3FE36002BF89E /* VoiceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0A3CD28F3FE36002BF89E /* VoiceVC.xib */; };
 		8DE0A3D428F5CD2D002BF89E /* Focus Attention.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0A3D328F5CD2D002BF89E /* Focus Attention.mp3 */; };
@@ -85,8 +93,8 @@
 		8D0A9DB428F30690002BDFF0 /* VoiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceTableViewCell.swift; sourceTree = "<group>"; };
 		8D0A9DB528F30690002BDFF0 /* VoiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoiceTableViewCell.xib; sourceTree = "<group>"; };
 		8D0E817C28E730B5007B51BE /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		8D2791A6290D579500CC3436 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D31E82A29080464002CB054 /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
-		8D31E82C29080D46002CB054 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		8D3A9BCC28ECBAD700AF6497 /* RemindersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersVC.swift; sourceTree = "<group>"; };
 		8D3A9BCD28ECBAD700AF6497 /* RemindersVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemindersVC.xib; sourceTree = "<group>"; };
 		8D3A9BD428EF0EB200AF6497 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -124,6 +132,8 @@
 		8D96E0922906D9C600C0AA6B /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
 		8DABE81B28E89662000CD7BA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8DB2A408290B01C100A8CD67 /* CourseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseFactory.swift; sourceTree = "<group>"; };
+		8DB2A40A290C084A00A8CD67 /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		8DD6EEA4291137B800B0520B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		8DE0A3CC28F3FE36002BF89E /* VoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceVC.swift; sourceTree = "<group>"; };
 		8DE0A3CD28F3FE36002BF89E /* VoiceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoiceVC.xib; sourceTree = "<group>"; };
 		8DE0A3D328F5CD2D002BF89E /* Focus Attention.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Focus Attention.mp3"; sourceTree = "<group>"; };
@@ -144,8 +154,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD6EEA1290DB9CD00B0520B /* GoogleSignInSwift in Frameworks */,
+				8D2791AE290D58BA00CC3436 /* FirebaseDatabase in Frameworks */,
+				8DD6EE9F290DB9CD00B0520B /* GoogleSignIn in Frameworks */,
 				8D3A9BD228EE042B00AF6497 /* SnapKit in Frameworks */,
+				8D2791AC290D58BA00CC3436 /* FirebaseAuth in Frameworks */,
 				8D5FFB6D28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayoutObjC in Frameworks */,
+				8D2791B0290D58BA00CC3436 /* FirebaseStorage in Frameworks */,
+				8D2791AA290D58BA00CC3436 /* FirebaseAnalytics in Frameworks */,
 				8D5FFB6B28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,7 +243,7 @@
 		8D6671EB28E7082200DDB1A7 /* BreathMeditation */ = {
 			isa = PBXGroup;
 			children = (
-				8D31E82C29080D46002CB054 /* GoogleService-Info (1).plist */,
+				8D2791A6290D579500CC3436 /* GoogleService-Info.plist */,
 				8D66723228E721F700DDB1A7 /* Resources */,
 				8D66722D28E715BC00DDB1A7 /* Model */,
 				8D66721F28E70BE100DDB1A7 /* System */,
@@ -317,6 +333,7 @@
 				8D5FFB6228E8A515003E05D5 /* UILabel+Ext.swift */,
 				8D5FFB7028E9CBDC003E05D5 /* UIView+Animation.swift */,
 				8DFEF62328F056D800A290AA /* UIView+Ext.swift */,
+				8DB2A40A290C084A00A8CD67 /* UIButton+Ext.swift */,
 				8D31E82A29080464002CB054 /* UITextField+Ext.swift */,
 				8D5FFB7228E9CDE3003E05D5 /* UIViewController+Ext.swift */,
 			);
@@ -335,6 +352,7 @@
 			isa = PBXGroup;
 			children = (
 				8DF94D24290069FB00AB0F9B /* CourseModel.swift */,
+				8DD6EEA4291137B800B0520B /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -451,6 +469,12 @@
 				8D5FFB6A28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayout */,
 				8D5FFB6C28E9B84B003E05D5 /* CHTCollectionViewWaterfallLayoutObjC */,
 				8D3A9BD128EE042B00AF6497 /* SnapKit */,
+				8D2791A9290D58BA00CC3436 /* FirebaseAnalytics */,
+				8D2791AB290D58BA00CC3436 /* FirebaseAuth */,
+				8D2791AD290D58BA00CC3436 /* FirebaseDatabase */,
+				8D2791AF290D58BA00CC3436 /* FirebaseStorage */,
+				8DD6EE9E290DB9CD00B0520B /* GoogleSignIn */,
+				8DD6EEA0290DB9CD00B0520B /* GoogleSignInSwift */,
 			);
 			productName = BreathMeditation;
 			productReference = 8D6671E928E7082200DDB1A7 /* BreathMeditation.app */;
@@ -527,6 +551,8 @@
 			packageReferences = (
 				8D5FFB6928E9B84B003E05D5 /* XCRemoteSwiftPackageReference "CHTCollectionViewWaterfallLayout" */,
 				8D3A9BD028EE042B00AF6497 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				8D2791A8290D58B900CC3436 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8DD6EE9D290DB9CD00B0520B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 8D6671EA28E7082200DDB1A7 /* Products */;
 			projectDirPath = "";
@@ -545,7 +571,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF2849628F9BB9800F913A7 /* GetStartedVC.xib in Resources */,
-				8D31E82D29080D46002CB054 /* GoogleService-Info (1).plist in Resources */,
+				8D2791A7290D579500CC3436 /* GoogleService-Info.plist in Resources */,
 				8D66723C28E72E8200DDB1A7 /* Tungsten-Semibold.ttf in Resources */,
 				8D6671FC28E7082400DDB1A7 /* LaunchScreen.storyboard in Resources */,
 				8D3A9BCF28ECBAD700AF6497 /* RemindersVC.xib in Resources */,
@@ -589,6 +615,7 @@
 				8DF94D25290069FB00AB0F9B /* CourseModel.swift in Sources */,
 				8D31E82B29080464002CB054 /* UITextField+Ext.swift in Sources */,
 				8D0E817D28E730B5007B51BE /* UIImage+Ext.swift in Sources */,
+				8DB2A40B290C084A00A8CD67 /* UIButton+Ext.swift in Sources */,
 				8D96E08E2906D8B500C0AA6B /* LoginVC.swift in Sources */,
 				8D3A9BCE28ECBAD700AF6497 /* RemindersVC.swift in Sources */,
 				8DFEF62728F0610A00A290AA /* HomeCell.swift in Sources */,
@@ -614,6 +641,7 @@
 				8DFEF62428F056D800A290AA /* UIView+Ext.swift in Sources */,
 				8DF2849528F9BB9800F913A7 /* GetStartedVC.swift in Sources */,
 				8D66722828E70D7D00DDB1A7 /* GetStartedVM.swift in Sources */,
+				8DD6EEA5291137B800B0520B /* UserModel.swift in Sources */,
 				8DFEF62928F0744E00A290AA /* Images.swift in Sources */,
 				8D6671EF28E7082200DDB1A7 /* SceneDelegate.swift in Sources */,
 				8D5FFB7728EA1CD4003E05D5 /* Constatns.swift in Sources */,
@@ -949,6 +977,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8D2791A8290D58B900CC3436 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 9.6.0;
+			};
+		};
 		8D3A9BD028EE042B00AF6497 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -965,9 +1001,37 @@
 				minimumVersion = 0.9.9;
 			};
 		};
+		8DD6EE9D290DB9CD00B0520B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8D2791A9290D58BA00CC3436 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D2791A8290D58B900CC3436 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8D2791AB290D58BA00CC3436 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D2791A8290D58B900CC3436 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8D2791AD290D58BA00CC3436 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D2791A8290D58B900CC3436 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		8D2791AF290D58BA00CC3436 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D2791A8290D58B900CC3436 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
 		8D3A9BD128EE042B00AF6497 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8D3A9BD028EE042B00AF6497 /* XCRemoteSwiftPackageReference "SnapKit" */;
@@ -982,6 +1046,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8D5FFB6928E9B84B003E05D5 /* XCRemoteSwiftPackageReference "CHTCollectionViewWaterfallLayout" */;
 			productName = CHTCollectionViewWaterfallLayoutObjC;
+		};
+		8DD6EE9E290DB9CD00B0520B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DD6EE9D290DB9CD00B0520B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		8DD6EEA0290DB9CD00B0520B /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DD6EE9D290DB9CD00B0520B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 

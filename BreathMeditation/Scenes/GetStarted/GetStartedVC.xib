@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GetStartedVC" customModule="BreathMeditation" customModuleProvider="target">
             <connections>
                 <outlet property="getStartedButton" destination="fWu-cb-7O3" id="T67-UU-WIj"/>
+                <outlet property="hiLabel" destination="HXr-zr-6Ig" id="drO-Dq-P4G"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="womanImageBottomConstraint" destination="xBZ-bl-kZa" id="bv8-NL-qLV"/>
             </connections>
@@ -58,7 +59,7 @@
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="dCh-HK-SS8">
                     <rect key="frame" x="16" y="143" width="358" height="135"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi Afsar, Welcome to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXr-zr-6Ig">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi Afsar," textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXr-zr-6Ig">
                             <rect key="frame" x="0.0" y="0.0" width="358" height="36"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="358" id="FOb-sV-2IX"/>
@@ -68,13 +69,13 @@
                             <color key="textColor" name="music-bg-color"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breath Meditation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xa0-hC-SNV">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Breath Meditation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xa0-hC-SNV">
                             <rect key="frame" x="0.0" y="39" width="358" height="31"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="31" id="TQK-QQ-zOh"/>
                                 <constraint firstAttribute="width" constant="358" id="Tq5-YU-WKb"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="26"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
                             <color key="textColor" name="music-bg-color"/>
                             <nil key="highlightedColor"/>
                         </label>

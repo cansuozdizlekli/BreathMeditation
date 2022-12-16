@@ -30,6 +30,8 @@ class RemindersVC: UIViewController, UNUserNotificationCenterDelegate {
         super.viewDidLoad()
         setUpItems()
         
+        // MARK: - araştırılacak bu ne işe yarar falan filan fistan inter milan -
+//        notificationCenter.removeAllPendingNotificationRequests()
         
     }
     
@@ -48,6 +50,10 @@ class RemindersVC: UIViewController, UNUserNotificationCenterDelegate {
         timePicker.layer.masksToBounds = true
         print("zaman", formatter.string(from: timePicker.date))
         timePicker.addTarget(self, action: #selector(timePickerValueChanged(sender:)), for: UIControl.Event.valueChanged)
+        let str = formatter.string(from: timePicker.date)
+        timeNotification = str
+        print("func ici 1",formatter.string(from: timePicker.date), str)
+        
         saveButton.backgroundColor = .primaryIndigo
         saveButton.layer.cornerRadius = 32
         sundayButton.layer.cornerRadius = 21
@@ -157,6 +163,7 @@ class RemindersVC: UIViewController, UNUserNotificationCenterDelegate {
         let content = UNMutableNotificationContent()
         content.title = "Meditation ?"
         content.body = "daily reminder"
+        content.sound = .default
 //        print("dk cnm",dateComp.minute)
         
                     

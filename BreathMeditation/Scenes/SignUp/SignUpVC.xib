@@ -57,6 +57,9 @@
                         </attributedString>
                         <color key="baseForegroundColor" name="daily-color"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="googleButtonTappped:" destination="-1" eventType="touchUpInside" id="Ezx-vO-NiG"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR SIGN UP WITH EMAIL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wms-8O-QKC">
                     <rect key="frame" x="16" y="319" width="358" height="16"/>
@@ -67,56 +70,32 @@
                     <color key="textColor" name="textfield-text"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U74-3f-BKm">
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Name and Surname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U74-3f-BKm">
                     <rect key="frame" x="16" y="394.66666666666669" width="358" height="55"/>
                     <color key="backgroundColor" name="textfield-color"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="55" id="ilU-4c-7rG"/>
                     </constraints>
-                    <attributedString key="attributedText">
-                        <fragment content="Name and Surname">
-                            <attributes>
-                                <color key="NSColor" name="textfield-text"/>
-                                <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                            </attributes>
-                        </fragment>
-                    </attributedString>
+                    <attributedString key="attributedText"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mWF-Ai-oSD">
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Email Address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mWF-Ai-oSD">
                     <rect key="frame" x="16" y="474.66666666666669" width="358" height="55.000000000000057"/>
                     <color key="backgroundColor" name="textfield-color"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="55" id="mo3-dC-9jz"/>
                     </constraints>
-                    <attributedString key="attributedText">
-                        <fragment content="Email Address">
-                            <attributes>
-                                <color key="NSColor" name="textfield-text"/>
-                                <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                            </attributes>
-                        </fragment>
-                    </attributedString>
+                    <attributedString key="attributedText"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kXM-QT-yHK">
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kXM-QT-yHK">
                     <rect key="frame" x="16" y="554.66666666666663" width="358" height="55"/>
                     <color key="backgroundColor" name="textfield-color"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="55" id="9n0-Yh-7ZY"/>
                     </constraints>
-                    <attributedString key="attributedText">
-                        <fragment content="Password">
-                            <attributes>
-                                <color key="NSColor" name="textfield-text"/>
-                                <font key="NSFont" size="15" name="HelveticaNeue"/>
-                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                            </attributes>
-                        </fragment>
-                    </attributedString>
-                    <textInputTraits key="textInputTraits" textContentType="password"/>
+                    <attributedString key="attributedText"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="password"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WD-wN-fUB">
                     <rect key="frame" x="16" y="686.66666666666663" width="358" height="55"/>
@@ -137,6 +116,9 @@
                         </attributedString>
                         <color key="baseForegroundColor" name="music-bg-color"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="signUpTapped:" destination="-1" eventType="touchUpInside" id="dFN-5D-pTb"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

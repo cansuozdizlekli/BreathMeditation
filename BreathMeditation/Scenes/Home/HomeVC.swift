@@ -89,6 +89,7 @@ class HomeVC: UIViewController {
         dailyImage.layer.cornerRadius = 12
         dailyView.layer.cornerRadius = 12
         setupCollectionView()
+        UserDefaults.standard.set(true, forKey: "isFirstTime")
     }
     
     private func setupCollectionView() {

@@ -15,6 +15,7 @@ extension UIColor {
     static let primaryTitleColor = UIColor.init(red: 63, green: 65, blue: 79)
     static let focusBackground = UIColor.init(red: 164, green: 221, blue: 196)
     static let playPauseButtonBorder = UIColor.init(red: 186, green: 188, blue: 198)
+    static let textfeildText = UIColor.init(red: 160, green: 164, blue: 179)
     
 }
 

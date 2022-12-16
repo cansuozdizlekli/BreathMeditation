@@ -6,9 +6,14 @@
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
 
 class GetStartedVC: UIViewController {
+    
+    var newUser : User!
 
+    @IBOutlet weak var hiLabel: UILabel!
     @IBOutlet weak var getStartedButton: UIButton!
     @IBOutlet weak var womanImageBottomConstraint: NSLayoutConstraint!
     override func viewDidLoad() {
@@ -16,7 +21,16 @@ class GetStartedVC: UIViewController {
         editConstraint()
         setUpUI()
         
+        print("denemek cnm:",Auth.auth().currentUser?.displayName)
+
+      
+
+        
+        
     }
+//    override func viewWillAppear(_ animated: Bool) {
+//        hiLabel.text = newUser.name
+//    }
     
     private func editConstraint() {
         if screenHeight > 600 && screenHeight < 800 {
@@ -37,6 +51,7 @@ class GetStartedVC: UIViewController {
     }
     
     private func setUpUI(){
+//        hiLabel.text = "Hi \(String(describing: newUser?.name))"
         getStartedButton.layer.cornerRadius = 30
         getStartedButton.layer.masksToBounds = true
         getStartedButton.backgroundColor = .secondaryWhite

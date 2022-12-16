@@ -49,6 +49,9 @@
                         </attributedString>
                         <color key="baseForegroundColor" name="daily-color"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="googleButtonTappped:" destination="-1" eventType="touchUpInside" id="zEa-qR-CCg"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR LOG IN WITH EMAIL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzt-vZ-HYj">
                     <rect key="frame" x="16" y="318" width="358" height="15.666666666666686"/>
@@ -126,6 +129,9 @@
                         </attributedString>
                         <color key="baseForegroundColor" name="music-bg-color"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="loginTapped:" destination="-1" eventType="touchUpInside" id="5Rw-gL-62r"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

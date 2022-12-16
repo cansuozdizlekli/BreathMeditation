@@ -6,30 +6,34 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
-    var window: UIWindow?
+    static var window: UIWindow?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(windowScene: windowScene)
-        window?.windowScene = windowScene
+        SceneDelegate.window = UIWindow(windowScene: windowScene)
+        SceneDelegate.window?.windowScene = windowScene
         firstTimeCheck()
-        window?.makeKeyAndVisible()
+        SceneDelegate.window?.makeKeyAndVisible()
     }
     
     func firstTimeCheck(){
         if (UserDefaults.standard.value(forKey: "isFirstTime") != nil) == true {
-//            window?.rootViewController = TabBarController()
-            window?.rootViewController = GetStartedVC()
-//            window?.rootViewController = FirstVC()
+            SceneDelegate.window?.rootViewController = TabBarController()
+//            SceneDelegate.window?.rootViewController = FirstVC()
         }
         else {
-            window?.rootViewController = GetStartedVC()
-
-//            window?.rootViewController = GetStartedVC()
+            if Auth.auth().currentUser != nil {
+                SceneDelegate.window?.rootViewController = GetStartedVC()
+            }else {
+                SceneDelegate.window?.rootViewController = FirstVC()
+            }
+            
         }
     }
 
